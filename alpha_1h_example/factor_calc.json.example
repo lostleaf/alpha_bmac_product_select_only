@@ -1,0 +1,12 @@
+{
+    "interval": "1h", 
+    "bmac_dir": "../usdt_1h_alpha",
+    "bmac_expire_sec": 30,
+    "factor": ["MtmAtrMean", true, 120, 0, 1],
+    "filters": [["ChgPctMax", 24], ["Volume", 24]],
+    "long_num": 2,
+    "short_num": 8,
+    "min_candle_num": 999,
+    "capital_usdt": 1000,
+    "debug": false
+}
